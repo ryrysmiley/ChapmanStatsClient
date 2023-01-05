@@ -1,0 +1,165 @@
+/*Navigation Bar*/
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #22333B;
+    width: 100%;
+}
+.navbar li{
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: #EAE0D5;
+    font-size: large;
+    font-weight: 300;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0A0908;
+}
+
+/*Page container*/
+.container {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.container h3{
+    margin: 0;
+}
+
+.container p{
+    margin-top: 0;
+}
+
+.container_form{
+    float: left;
+    height: auto;
+    width: 400px;
+    margin-right: 55px;
+    margin-bottom: 30px;
+    min-height: 300px;
+}
+
+.container_form input{
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid;
+    color: black;
+    padding-left: 4px;
+    width: 100%;
+}
+
+
+.container_form select{
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    padding: 2px 0px 2px 0px;
+    border: 1px solid;
+    color: black;
+    width: 100%;
+}
+
+.container_form button{
+    background-color: #22333B;
+    border-radius: 5px;
+    padding: 6px 9px 6px 9px;
+    color: #EAE0D5;
+    margin-top: 5px;
+    border-style: none;
+}
+
+.container_form button:hover{
+    background-color: #66A182;
+}
+
+.container_form button:active{
+    background-color: #22333B;
+}
+
+/*Counter on home page*/
+.count{
+    color: #63A375;
+    font-weight: bold;
+}
+
+/*handle stat tables results*/
+.tableoverflow{
+    overflow-x: auto;
+}
+
+/*back button for stats*/
+.backButton{
+    background-color: #22333B;
+    border-radius: 5px;
+    padding: 6px 9px 6px 9px;
+    color: #EAE0D5;
+    margin-top: 5px;
+    border-style: none;
+}
+
+.backButton:hover{
+    background-color: #66A182;
+}
+
+.backButton:active{
+    background-color: #22333B;
+}
+
+/*Special container form*/
+
+.container_form_special{
+    float: left;
+    height: auto;
+    width: 400px;
+    margin-right: 55px;
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+
+.container_form_special input{
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid;
+    color: black;
+    padding-left: 4px;
+    width: 100%;
+}
+
+
+.container_form_special select{
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    padding: 2px 0px 2px 0px;
+    border: 1px solid;
+    color: black;
+    width: 100%;
+}
+
+.container_form_special button{
+    background-color: #22333B;
+    border-radius: 5px;
+    padding: 6px 9px 6px 9px;
+    color: #EAE0D5;
+    margin-top: 5px;
+    border-style: none;
+}
+
+.container_form_special button:hover{
+    background-color: #66A182;
+}
+
+.container_form_special button:active{
+    background-color: #22333B;
+}
